@@ -1,0 +1,1306 @@
+{
+  "cases": 144,
+  "instances": [
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n1024-kna-000",
+      "initial_breakpoints": 1023,
+      "initial_strips": 1024,
+      "k": null,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n1024-kna-001",
+      "initial_breakpoints": 1024,
+      "initial_strips": 1025,
+      "k": null,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-000",
+      "initial_breakpoints": 1021,
+      "initial_strips": 1022,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-001",
+      "initial_breakpoints": 1021,
+      "initial_strips": 1022,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-002",
+      "initial_breakpoints": 1025,
+      "initial_strips": 1026,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-003",
+      "initial_breakpoints": 1023,
+      "initial_strips": 1024,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-004",
+      "initial_breakpoints": 1022,
+      "initial_strips": 1023,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-005",
+      "initial_breakpoints": 1023,
+      "initial_strips": 1024,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-006",
+      "initial_breakpoints": 1023,
+      "initial_strips": 1024,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-007",
+      "initial_breakpoints": 1025,
+      "initial_strips": 1026,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-008",
+      "initial_breakpoints": 1022,
+      "initial_strips": 1023,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n1024-kna-009",
+      "initial_breakpoints": 1025,
+      "initial_strips": 1026,
+      "k": null,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n4096-kna-000",
+      "initial_breakpoints": 4096,
+      "initial_strips": 4097,
+      "k": null,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n4096-kna-001",
+      "initial_breakpoints": 4096,
+      "initial_strips": 4097,
+      "k": null,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-000",
+      "initial_breakpoints": 4096,
+      "initial_strips": 4097,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-001",
+      "initial_breakpoints": 4094,
+      "initial_strips": 4095,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-002",
+      "initial_breakpoints": 4094,
+      "initial_strips": 4095,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-003",
+      "initial_breakpoints": 4093,
+      "initial_strips": 4094,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-004",
+      "initial_breakpoints": 4094,
+      "initial_strips": 4095,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-005",
+      "initial_breakpoints": 4096,
+      "initial_strips": 4097,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-006",
+      "initial_breakpoints": 4093,
+      "initial_strips": 4094,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-007",
+      "initial_breakpoints": 4095,
+      "initial_strips": 4096,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-008",
+      "initial_breakpoints": 4095,
+      "initial_strips": 4096,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n4096-kna-009",
+      "initial_breakpoints": 4095,
+      "initial_strips": 4096,
+      "k": null,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n16384-kna-000",
+      "initial_breakpoints": 16383,
+      "initial_strips": 16384,
+      "k": null,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n16384-kna-001",
+      "initial_breakpoints": 16383,
+      "initial_strips": 16384,
+      "k": null,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-000",
+      "initial_breakpoints": 16381,
+      "initial_strips": 16382,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-001",
+      "initial_breakpoints": 16383,
+      "initial_strips": 16384,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-002",
+      "initial_breakpoints": 16385,
+      "initial_strips": 16386,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-003",
+      "initial_breakpoints": 16384,
+      "initial_strips": 16385,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-004",
+      "initial_breakpoints": 16383,
+      "initial_strips": 16384,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-005",
+      "initial_breakpoints": 16384,
+      "initial_strips": 16385,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-006",
+      "initial_breakpoints": 16384,
+      "initial_strips": 16385,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-007",
+      "initial_breakpoints": 16380,
+      "initial_strips": 16381,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-008",
+      "initial_breakpoints": 16383,
+      "initial_strips": 16384,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n16384-kna-009",
+      "initial_breakpoints": 16382,
+      "initial_strips": 16383,
+      "k": null,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-002",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-003",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-004",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-005",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-006",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-007",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-008",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k4-009",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k64-000",
+      "initial_breakpoints": 118,
+      "initial_strips": 119,
+      "k": 64,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k64-001",
+      "initial_breakpoints": 120,
+      "initial_strips": 121,
+      "k": 64,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-000",
+      "initial_breakpoints": 124,
+      "initial_strips": 125,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-001",
+      "initial_breakpoints": 122,
+      "initial_strips": 123,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-002",
+      "initial_breakpoints": 119,
+      "initial_strips": 120,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-003",
+      "initial_breakpoints": 122,
+      "initial_strips": 123,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-004",
+      "initial_breakpoints": 119,
+      "initial_strips": 120,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-005",
+      "initial_breakpoints": 120,
+      "initial_strips": 121,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-006",
+      "initial_breakpoints": 119,
+      "initial_strips": 120,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-007",
+      "initial_breakpoints": 124,
+      "initial_strips": 125,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-008",
+      "initial_breakpoints": 122,
+      "initial_strips": 123,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k64-009",
+      "initial_breakpoints": 123,
+      "initial_strips": 124,
+      "k": 64,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k1024-000",
+      "initial_breakpoints": 879,
+      "initial_strips": 880,
+      "k": 1024,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n1024-k1024-001",
+      "initial_breakpoints": 887,
+      "initial_strips": 888,
+      "k": 1024,
+      "n": 1024,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-000",
+      "initial_breakpoints": 887,
+      "initial_strips": 888,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-001",
+      "initial_breakpoints": 896,
+      "initial_strips": 897,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-002",
+      "initial_breakpoints": 873,
+      "initial_strips": 874,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-003",
+      "initial_breakpoints": 889,
+      "initial_strips": 890,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-004",
+      "initial_breakpoints": 856,
+      "initial_strips": 857,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-005",
+      "initial_breakpoints": 895,
+      "initial_strips": 896,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-006",
+      "initial_breakpoints": 889,
+      "initial_strips": 890,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-007",
+      "initial_breakpoints": 882,
+      "initial_strips": 883,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-008",
+      "initial_breakpoints": 902,
+      "initial_strips": 903,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n1024-k1024-009",
+      "initial_breakpoints": 893,
+      "initial_strips": 894,
+      "k": 1024,
+      "n": 1024,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-002",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-003",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-004",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-005",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-006",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-007",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-008",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k4-009",
+      "initial_breakpoints": 7,
+      "initial_strips": 8,
+      "k": 4,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k64-000",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-000",
+      "initial_breakpoints": 126,
+      "initial_strips": 127,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-001",
+      "initial_breakpoints": 125,
+      "initial_strips": 126,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-002",
+      "initial_breakpoints": 125,
+      "initial_strips": 126,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-003",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-004",
+      "initial_breakpoints": 126,
+      "initial_strips": 127,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-005",
+      "initial_breakpoints": 126,
+      "initial_strips": 127,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-006",
+      "initial_breakpoints": 125,
+      "initial_strips": 126,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-007",
+      "initial_breakpoints": 126,
+      "initial_strips": 127,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-008",
+      "initial_breakpoints": 125,
+      "initial_strips": 126,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k64-009",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k1024-000",
+      "initial_breakpoints": 1639,
+      "initial_strips": 1640,
+      "k": 1024,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n4096-k1024-001",
+      "initial_breakpoints": 1652,
+      "initial_strips": 1653,
+      "k": 1024,
+      "n": 4096,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-000",
+      "initial_breakpoints": 1614,
+      "initial_strips": 1615,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-001",
+      "initial_breakpoints": 1636,
+      "initial_strips": 1637,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-002",
+      "initial_breakpoints": 1609,
+      "initial_strips": 1610,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-003",
+      "initial_breakpoints": 1622,
+      "initial_strips": 1623,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-004",
+      "initial_breakpoints": 1622,
+      "initial_strips": 1623,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-005",
+      "initial_breakpoints": 1638,
+      "initial_strips": 1639,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-006",
+      "initial_breakpoints": 1610,
+      "initial_strips": 1611,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-007",
+      "initial_breakpoints": 1608,
+      "initial_strips": 1609,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-008",
+      "initial_breakpoints": 1601,
+      "initial_strips": 1602,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n4096-k1024-009",
+      "initial_breakpoints": 1613,
+      "initial_strips": 1614,
+      "k": 1024,
+      "n": 4096,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-000",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-001",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-002",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-003",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-004",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-005",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-006",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-007",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-008",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k4-009",
+      "initial_breakpoints": 8,
+      "initial_strips": 9,
+      "k": 4,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k64-000",
+      "initial_breakpoints": 125,
+      "initial_strips": 126,
+      "k": 64,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-000",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-002",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-003",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-004",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-005",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-006",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-007",
+      "initial_breakpoints": 126,
+      "initial_strips": 127,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-008",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k64-009",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k1024-000",
+      "initial_breakpoints": 1910,
+      "initial_strips": 1911,
+      "k": 1024,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n16384-k1024-001",
+      "initial_breakpoints": 1920,
+      "initial_strips": 1921,
+      "k": 1024,
+      "n": 16384,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-000",
+      "initial_breakpoints": 1913,
+      "initial_strips": 1914,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-001",
+      "initial_breakpoints": 1918,
+      "initial_strips": 1919,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-002",
+      "initial_breakpoints": 1936,
+      "initial_strips": 1937,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-003",
+      "initial_breakpoints": 1949,
+      "initial_strips": 1950,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-004",
+      "initial_breakpoints": 1925,
+      "initial_strips": 1926,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-005",
+      "initial_breakpoints": 1928,
+      "initial_strips": 1929,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-006",
+      "initial_breakpoints": 1928,
+      "initial_strips": 1929,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-007",
+      "initial_breakpoints": 1929,
+      "initial_strips": 1930,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-008",
+      "initial_breakpoints": 1943,
+      "initial_strips": 1944,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n16384-k1024-009",
+      "initial_breakpoints": 1915,
+      "initial_strips": 1916,
+      "k": 1024,
+      "n": 16384,
+      "split": "main"
+    }
+  ],
+  "main_cases": 120,
+  "pilot_cases": 24,
+  "real_cases": 0,
+  "schema": 1,
+  "valid": true
+}

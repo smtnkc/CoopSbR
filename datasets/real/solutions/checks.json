@@ -1,0 +1,84 @@
+{
+  "policy": "extreme-strip-v1",
+  "purpose": "local correctness certificates, not timing results",
+  "cases": [
+    {
+      "id": "real-v1-dmel-dsim-3R",
+      "n": 3109,
+      "initial_breakpoints": 169,
+      "reversals": 89,
+      "verified": true,
+      "trace": "real-v1-dmel-dsim-3R.trace",
+      "trace_sha256": "cd3a65d3654da1c7be45cab88483805269130030903ffdc057e447fe3733f5a7",
+      "input_sha256": "292361669bd1f4a0521bccd51184c4c0f0bf3cfc03f990fa678e27035d1c38b1",
+      "lower_bound": 85,
+      "upper_bound": 89,
+      "optimum_certified": false
+    },
+    {
+      "id": "real-v1-dmel-dsim-2R",
+      "n": 2565,
+      "initial_breakpoints": 40,
+      "reversals": 21,
+      "verified": true,
+      "trace": "real-v1-dmel-dsim-2R.trace",
+      "trace_sha256": "0119673c91cb3fe89f44a545ffd7283cf66eddb1bb6c50f8cd885037031b80a0",
+      "input_sha256": "46b8ca67f9c330decbc9806172f8372869837a43f7212a125675dfb257695472",
+      "lower_bound": 20,
+      "upper_bound": 21,
+      "optimum_certified": false
+    },
+    {
+      "id": "real-v1-dmel-dsim-3L",
+      "n": 2505,
+      "initial_breakpoints": 37,
+      "reversals": 19,
+      "verified": true,
+      "trace": "real-v1-dmel-dsim-3L.trace",
+      "trace_sha256": "99cb6f7fe4d253f5e5f56418ed40538f6441963aff2e7ebf1f68d437f2f782f2",
+      "input_sha256": "dbaed463334e80eb6de33a34afa2b41a1be443a7fe73f9205568dab49fe45e3d",
+      "lower_bound": 19,
+      "upper_bound": 19,
+      "optimum_certified": true
+    },
+    {
+      "id": "real-v1-dmel-dyak-3R",
+      "n": 3060,
+      "initial_breakpoints": 137,
+      "reversals": 71,
+      "verified": true,
+      "trace": "real-v1-dmel-dyak-3R.trace",
+      "trace_sha256": "811b961ba81c31759da101f760c4ec61fcc26676e847ddb4ea1fcd8e16007774",
+      "input_sha256": "566bbecacb75a8b5da0af2df282d8acee24c30bb7af3929723a025183ba40c6f",
+      "lower_bound": 69,
+      "upper_bound": 71,
+      "optimum_certified": false
+    },
+    {
+      "id": "real-v1-dmel-dyak-3L",
+      "n": 2415,
+      "initial_breakpoints": 128,
+      "reversals": 69,
+      "verified": true,
+      "trace": "real-v1-dmel-dyak-3L.trace",
+      "trace_sha256": "ae9c4f9d48269438e5f7a5ca4a85fc158ce8080427f67836186df898ccd2165e",
+      "input_sha256": "67fee7379d551c1d13cde293d7ff050d5988c226d888ce9871b64b1ddbaa54a3",
+      "lower_bound": 64,
+      "upper_bound": 69,
+      "optimum_certified": false
+    },
+    {
+      "id": "real-v1-dmel-dyak-X",
+      "n": 1890,
+      "initial_breakpoints": 75,
+      "reversals": 43,
+      "verified": true,
+      "trace": "real-v1-dmel-dyak-X.trace",
+      "trace_sha256": "2e2dc237349dcbb2f4bd953fd554243b3d94ba7aa40d7114214189aa931bb497",
+      "input_sha256": "7dc8a92f7e4613d77da81de4f804b841e7fc308ff79a2392c8918a6e0382b1f6",
+      "lower_bound": 38,
+      "upper_bound": 43,
+      "optimum_certified": false
+    }
+  ]
+}

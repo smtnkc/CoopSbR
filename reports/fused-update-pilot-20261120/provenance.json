@@ -1,0 +1,13 @@
+{
+  "source_commit": "dcdc2fde817957b176d3978c7fa9e7d8a0318b24",
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 580.178.04",
+  "solver_sha256": "d5d977fbfa25f8da51dd4787c2f23bd86d87373342b191d920d29f9b62207906",
+  "checker_sha256": "923f8916775962f06d777482f9cc89f03129baf16a5f4b1cb0973e4690e5f81c",
+  "seed": 42,
+  "main_repetitions": 3,
+  "warmups": 1,
+  "verified_calls": 216,
+  "elapsed_seconds": 60.87632385408506,
+  "real_inputs": 6,
+  "synthetic_inputs": 12
+}

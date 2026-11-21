@@ -1,0 +1,372 @@
+[
+  {
+    "reference_gene": "FBgn0003510",
+    "query_gene": "LOC6730166",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0003511",
+    "query_gene": "LOC6730165",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0010038",
+    "query_gene": "LOC6728383",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0010039",
+    "query_gene": "LOC123327290",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0011273",
+    "query_gene": "LOC27206484",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0023083",
+    "query_gene": "LOC123327025",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0026063",
+    "query_gene": "LOC27206472",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0026064",
+    "query_gene": "LOC27206471",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037262",
+    "query_gene": "LOC6726716",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037263",
+    "query_gene": "LOC27206414",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037610",
+    "query_gene": "LOC6728897",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037611",
+    "query_gene": "LOC6728896",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037689",
+    "query_gene": "LOC6728795",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037702",
+    "query_gene": "LOC6728779",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0037703",
+    "query_gene": "LOC120285045",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038032",
+    "query_gene": "LOC6728371",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038033",
+    "query_gene": "LOC6728370",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038051",
+    "query_gene": "LOC120284204",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038107",
+    "query_gene": "LOC123327030",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038570",
+    "query_gene": "LOC6727617",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038571",
+    "query_gene": "LOC6727616",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0038627",
+    "query_gene": "LOC6727555",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039049",
+    "query_gene": "LOC6729191",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039050",
+    "query_gene": "LOC6729192",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039241",
+    "query_gene": "LOC6729491",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039280",
+    "query_gene": "LOC6729546",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039339",
+    "query_gene": "LOC6729624",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039374",
+    "query_gene": "LOC6729666",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039405",
+    "query_gene": "LOC123327015",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0039565",
+    "query_gene": "LOC120284205",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0040076",
+    "query_gene": "LOC6728182",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0040077",
+    "query_gene": "LOC6728183",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0042182",
+    "query_gene": "LOC6728966",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0043799",
+    "query_gene": "LOC6729490",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0051088",
+    "query_gene": "LOC27208221",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0051542",
+    "query_gene": "LOC6726797",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0053095",
+    "query_gene": "LOC6729540",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0053096",
+    "query_gene": "LOC27206702",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0064119",
+    "query_gene": "LOC6727376",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0064126",
+    "query_gene": "LOC6728967",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0067628",
+    "query_gene": "LOC6728048",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0067629",
+    "query_gene": "LOC6728047",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0083967",
+    "query_gene": "LOC6729077",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0085306",
+    "query_gene": "LOC6726801",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0085346",
+    "query_gene": "LOC6730175",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0259721",
+    "query_gene": "LOC27208226",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0259990",
+    "query_gene": "LOC27207021",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0259991",
+    "query_gene": "LOC6729623",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260224",
+    "query_gene": "LOC6729716",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260229",
+    "query_gene": "LOC27206429",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260230",
+    "query_gene": "LOC27206982",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260231",
+    "query_gene": "LOC6728434",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260237",
+    "query_gene": "LOC6728796",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260464",
+    "query_gene": "LOC6728174",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260466",
+    "query_gene": "LOC6727377",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260467",
+    "query_gene": "LOC6729078",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260468",
+    "query_gene": "LOC6730176",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260642",
+    "query_gene": "LOC6727020",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260759",
+    "query_gene": "LOC6730141",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0260760",
+    "query_gene": "LOC6730142",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261679",
+    "query_gene": "LOC6727977",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261680",
+    "query_gene": "LOC120284203",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261837",
+    "query_gene": "LOC6727202",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261838",
+    "query_gene": "LOC6727201",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261839",
+    "query_gene": "LOC6727198",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0261843",
+    "query_gene": "LOC27207039",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0262823",
+    "query_gene": "LOC27207242",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0262846",
+    "query_gene": "LOC27206934",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0264740",
+    "query_gene": "LOC6729306",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0264741",
+    "query_gene": "LOC6729307",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0265083",
+    "query_gene": "LOC27207372",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0286741",
+    "query_gene": "LOC6727892",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0286930",
+    "query_gene": "LOC6728349",
+    "reason": "ambiguous_coordinate_start"
+  },
+  {
+    "reference_gene": "FBgn0287588",
+    "query_gene": "LOC120284925",
+    "reason": "ambiguous_coordinate_start"
+  }
+]

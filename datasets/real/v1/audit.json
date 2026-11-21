@@ -1,0 +1,293 @@
+{
+  "candidates": [
+    {
+      "arm": "2L",
+      "arm_fidelity": 0.9991642290012537,
+      "comparison": "dmel-dsim",
+      "coordinate_tie_removed": 57,
+      "eligible": true,
+      "query_sequence": "CM028640.2",
+      "reason": "declared_case_count_budget",
+      "reference_arm_orthologs": 2393,
+      "retained_markers": 2334,
+      "same_arm_before_coordinate_filter": 2391,
+      "selected": false
+    },
+    {
+      "arm": "2R",
+      "arm_fidelity": 1.0,
+      "comparison": "dmel-dsim",
+      "coordinate_tie_removed": 94,
+      "eligible": true,
+      "query_sequence": "CM028641.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 2659,
+      "retained_markers": 2565,
+      "same_arm_before_coordinate_filter": 2659,
+      "selected": true
+    },
+    {
+      "arm": "3L",
+      "arm_fidelity": 0.9992223950233281,
+      "comparison": "dmel-dsim",
+      "coordinate_tie_removed": 65,
+      "eligible": true,
+      "query_sequence": "CM028642.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 2572,
+      "retained_markers": 2505,
+      "same_arm_before_coordinate_filter": 2570,
+      "selected": true
+    },
+    {
+      "arm": "3R",
+      "arm_fidelity": 1.0,
+      "comparison": "dmel-dsim",
+      "coordinate_tie_removed": 74,
+      "eligible": true,
+      "query_sequence": "CM028643.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 3183,
+      "retained_markers": 3109,
+      "same_arm_before_coordinate_filter": 3183,
+      "selected": true
+    },
+    {
+      "arm": "X",
+      "arm_fidelity": 0.995417515274949,
+      "comparison": "dmel-dsim",
+      "coordinate_tie_removed": 34,
+      "eligible": true,
+      "query_sequence": "CM028645.2",
+      "reason": "declared_case_count_budget",
+      "reference_arm_orthologs": 1964,
+      "retained_markers": 1921,
+      "same_arm_before_coordinate_filter": 1955,
+      "selected": false
+    },
+    {
+      "arm": "2L",
+      "arm_fidelity": 0.7864628820960698,
+      "comparison": "dmel-dyak",
+      "coordinate_tie_removed": 36,
+      "eligible": false,
+      "query_sequence": "CM028599.2",
+      "reason": "size_or_arm_correspondence",
+      "reference_arm_orthologs": 2290,
+      "retained_markers": 1765,
+      "same_arm_before_coordinate_filter": 1801,
+      "selected": false
+    },
+    {
+      "arm": "2R",
+      "arm_fidelity": 0.7630443311102393,
+      "comparison": "dmel-dyak",
+      "coordinate_tie_removed": 62,
+      "eligible": false,
+      "query_sequence": "CM028600.2",
+      "reason": "size_or_arm_correspondence",
+      "reference_arm_orthologs": 2549,
+      "retained_markers": 1883,
+      "same_arm_before_coordinate_filter": 1945,
+      "selected": false
+    },
+    {
+      "arm": "3L",
+      "arm_fidelity": 0.9971830985915493,
+      "comparison": "dmel-dyak",
+      "coordinate_tie_removed": 63,
+      "eligible": true,
+      "query_sequence": "CM028601.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 2485,
+      "retained_markers": 2415,
+      "same_arm_before_coordinate_filter": 2478,
+      "selected": true
+    },
+    {
+      "arm": "3R",
+      "arm_fidelity": 0.9996815286624203,
+      "comparison": "dmel-dyak",
+      "coordinate_tie_removed": 79,
+      "eligible": true,
+      "query_sequence": "CM028602.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 3140,
+      "retained_markers": 3060,
+      "same_arm_before_coordinate_filter": 3139,
+      "selected": true
+    },
+    {
+      "arm": "X",
+      "arm_fidelity": 1.0,
+      "comparison": "dmel-dyak",
+      "coordinate_tie_removed": 36,
+      "eligible": true,
+      "query_sequence": "CM028598.2",
+      "reason": "selected_by_marker_count_before_sorting",
+      "reference_arm_orthologs": 1926,
+      "retained_markers": 1890,
+      "same_arm_before_coordinate_filter": 1926,
+      "selected": true
+    }
+  ],
+  "chromosome_matrix": [
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 2391,
+      "query_sequence": "CM028640.2",
+      "reference_chromosome": "2L"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 2,
+      "query_sequence": "NGVV02000056.1",
+      "reference_chromosome": "2L"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 2659,
+      "query_sequence": "CM028641.2",
+      "reference_chromosome": "2R"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 2570,
+      "query_sequence": "CM028642.2",
+      "reference_chromosome": "3L"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 2,
+      "query_sequence": "NGVV02000074.1",
+      "reference_chromosome": "3L"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 3183,
+      "query_sequence": "CM028643.2",
+      "reference_chromosome": "3R"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 78,
+      "query_sequence": "CM028644.2",
+      "reference_chromosome": "4"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 1955,
+      "query_sequence": "CM028645.2",
+      "reference_chromosome": "X"
+    },
+    {
+      "comparison": "dmel-dsim",
+      "orthologs": 9,
+      "query_sequence": "NGVV02000076.1",
+      "reference_chromosome": "X"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 1801,
+      "query_sequence": "CM028599.2",
+      "reference_chromosome": "2L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 484,
+      "query_sequence": "CM028600.2",
+      "reference_chromosome": "2L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 5,
+      "query_sequence": "JAEDAC020000037.1",
+      "reference_chromosome": "2L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 604,
+      "query_sequence": "CM028599.2",
+      "reference_chromosome": "2R"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 1945,
+      "query_sequence": "CM028600.2",
+      "reference_chromosome": "2R"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 2478,
+      "query_sequence": "CM028601.2",
+      "reference_chromosome": "3L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 5,
+      "query_sequence": "CM028602.2",
+      "reference_chromosome": "3L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 2,
+      "query_sequence": "JAEDAC020000014.1",
+      "reference_chromosome": "3L"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 3139,
+      "query_sequence": "CM028602.2",
+      "reference_chromosome": "3R"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 1,
+      "query_sequence": "JAEDAC020000019.1",
+      "reference_chromosome": "3R"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 76,
+      "query_sequence": "CM028603.2",
+      "reference_chromosome": "4"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 1926,
+      "query_sequence": "CM028598.2",
+      "reference_chromosome": "X"
+    },
+    {
+      "comparison": "dmel-dyak",
+      "orthologs": 13,
+      "query_sequence": "NC_001322.1",
+      "reference_chromosome": "mitochondrion_genome"
+    }
+  ],
+  "counts": {
+    "reference_gene_records": 13986,
+    "simulans_gene_records": 14256,
+    "yakuba_gene_records": 14230
+  },
+  "pair_filtering": {
+    "dsim": {
+      "duplicate_rows": 0,
+      "rejection_counts": {
+        "not_ortholog_one2one": 963,
+        "not_provider_high_confidence": 120
+      },
+      "reported_pairs": 13932,
+      "strict_retained": 12849
+    },
+    "dyak": {
+      "duplicate_rows": 0,
+      "rejection_counts": {
+        "not_ortholog_one2one": 1076,
+        "not_provider_high_confidence": 218
+      },
+      "reported_pairs": 13773,
+      "strict_retained": 12479
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "cases": 34,
+  "instances": [
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n65536-kna-000",
+      "initial_breakpoints": 65536,
+      "initial_strips": 65537,
+      "k": null,
+      "n": 65536,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n65536-kna-001",
+      "initial_breakpoints": 65534,
+      "initial_strips": 65535,
+      "k": null,
+      "n": 65536,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n65536-kna-000",
+      "initial_breakpoints": 65533,
+      "initial_strips": 65534,
+      "k": null,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n65536-kna-001",
+      "initial_breakpoints": 65537,
+      "initial_strips": 65538,
+      "k": null,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n65536-kna-002",
+      "initial_breakpoints": 65534,
+      "initial_strips": 65535,
+      "k": null,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n65536-kna-003",
+      "initial_breakpoints": 65536,
+      "initial_strips": 65537,
+      "k": null,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n65536-kna-004",
+      "initial_breakpoints": 65534,
+      "initial_strips": 65535,
+      "k": null,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n131072-kna-000",
+      "initial_breakpoints": 131072,
+      "initial_strips": 131073,
+      "k": null,
+      "n": 131072,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "pilot-uniform-n131072-kna-001",
+      "initial_breakpoints": 131070,
+      "initial_strips": 131071,
+      "k": null,
+      "n": 131072,
+      "split": "pilot"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n131072-kna-000",
+      "initial_breakpoints": 131069,
+      "initial_strips": 131070,
+      "k": null,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n131072-kna-001",
+      "initial_breakpoints": 131073,
+      "initial_strips": 131074,
+      "k": null,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n131072-kna-002",
+      "initial_breakpoints": 131067,
+      "initial_strips": 131068,
+      "k": null,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n131072-kna-003",
+      "initial_breakpoints": 131073,
+      "initial_strips": 131074,
+      "k": null,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "uniform",
+      "id": "main-uniform-n131072-kna-004",
+      "initial_breakpoints": 131068,
+      "initial_strips": 131069,
+      "k": null,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n65536-k64-000",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n65536-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n65536-k64-000",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n65536-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n65536-k64-002",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n65536-k64-003",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n65536-k64-004",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 65536,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n131072-k64-000",
+      "initial_breakpoints": 127,
+      "initial_strips": 128,
+      "k": 64,
+      "n": 131072,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "pilot-semi-n131072-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "pilot"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n131072-k64-000",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n131072-k64-001",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n131072-k64-002",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n131072-k64-003",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "semi",
+      "id": "main-semi-n131072-k64-004",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": 64,
+      "n": 131072,
+      "split": "main"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3R",
+      "initial_breakpoints": 169,
+      "initial_strips": 170,
+      "k": null,
+      "n": 3109,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-2R",
+      "initial_breakpoints": 40,
+      "initial_strips": 41,
+      "k": null,
+      "n": 2565,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3L",
+      "initial_breakpoints": 37,
+      "initial_strips": 38,
+      "k": null,
+      "n": 2505,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3R",
+      "initial_breakpoints": 137,
+      "initial_strips": 138,
+      "k": null,
+      "n": 3060,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3L",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": null,
+      "n": 2415,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-X",
+      "initial_breakpoints": 75,
+      "initial_strips": 76,
+      "k": null,
+      "n": 1890,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    }
+  ],
+  "main_cases": 20,
+  "pilot_cases": 8,
+  "real_cases": 6,
+  "schema": 1,
+  "valid": true
+}

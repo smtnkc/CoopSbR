@@ -1,0 +1,7 @@
+case_id,variant,family,n,k,samples,protocol_complete,reversals,sort_ms,end_to_end_ms,allocated_bytes,kernel_launches,grid_barriers,updated_elements,summary_elements,candidate_elements,candidate_copy_elements
+real-v1-dmel-dsim-2R,SEQ,real,2565,,3,True,21,0.157919,0.159232,51324,0,0,46,56474,32773,0
+real-v1-dmel-dsim-3L,SEQ,real,2505,,3,True,19,0.139524,0.141008,50124,0,0,39,50140,31811,0
+real-v1-dmel-dsim-3R,SEQ,real,3109,,3,True,89,0.713482,0.715225,62204,0,0,1659,279990,119595,0
+real-v1-dmel-dyak-3L,SEQ,real,2415,,3,True,69,0.450935,0.452067,48324,0,0,2529,169190,91553,0
+real-v1-dmel-dyak-3R,SEQ,real,3060,,3,True,71,0.569028,0.570952,61224,0,0,5618,220464,108327,0
+real-v1-dmel-dyak-X,SEQ,real,1890,,3,True,43,0.188497,0.18978,37824,0,0,3842,83248,26868,0

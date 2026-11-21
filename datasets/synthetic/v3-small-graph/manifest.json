@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "seed": 42,
+  "generator": "python-random-MT19937",
+  "python_version": "3.11.6",
+  "sizes": [
+    2048,
+    8192
+  ],
+  "ks": [
+    64
+  ],
+  "instances": 5,
+  "pilot_instances": 2,
+  "cases": [
+    {
+      "id": "pilot-uniform-n2048-kna-000",
+      "split": "pilot",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 0,
+      "path": "pilot-uniform-n2048-kna-000.txt",
+      "sha256": "f4548ec871199cf727d3436b3745fa54d11b6ab9a886e27dd5bd61ec0158eef2"
+    },
+    {
+      "id": "pilot-uniform-n2048-kna-001",
+      "split": "pilot",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 1,
+      "path": "pilot-uniform-n2048-kna-001.txt",
+      "sha256": "4abeaef8925523ca3a79b2cab028806c08e1125ccf6fbac3f5be5b5d59c93f97"
+    },
+    {
+      "id": "main-uniform-n2048-kna-000",
+      "split": "main",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 0,
+      "path": "main-uniform-n2048-kna-000.txt",
+      "sha256": "8145040dcc25dbb8b79b241ff8e470ae0b1722a1286c29d62e2cc7d79ca12738"
+    },
+    {
+      "id": "main-uniform-n2048-kna-001",
+      "split": "main",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 1,
+      "path": "main-uniform-n2048-kna-001.txt",
+      "sha256": "4bba02cc168ee7fcec6979f20a56229a6a963f193beb54d2c2b4adf518402813"
+    },
+    {
+      "id": "main-uniform-n2048-kna-002",
+      "split": "main",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 2,
+      "path": "main-uniform-n2048-kna-002.txt",
+      "sha256": "848b304efb373a0e6e891b306328c8a1354134c027575f8f5b310641c504ca1d"
+    },
+    {
+      "id": "main-uniform-n2048-kna-003",
+      "split": "main",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 3,
+      "path": "main-uniform-n2048-kna-003.txt",
+      "sha256": "6b129cf4a8caad11087646fed8b0732f96506639fe487dc217e91cea7296de0f"
+    },
+    {
+      "id": "main-uniform-n2048-kna-004",
+      "split": "main",
+      "family": "uniform",
+      "n": 2048,
+      "k": null,
+      "instance": 4,
+      "path": "main-uniform-n2048-kna-004.txt",
+      "sha256": "703f8ebb3ade72b41ccee5d29810295ffedb66872e84d84ada9ceea067d3b9fd"
+    },
+    {
+      "id": "pilot-uniform-n8192-kna-000",
+      "split": "pilot",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 0,
+      "path": "pilot-uniform-n8192-kna-000.txt",
+      "sha256": "e04d1f9a2c07284494a7203ec7e4d452b934d342bd59802b7fc841099d7e9743"
+    },
+    {
+      "id": "pilot-uniform-n8192-kna-001",
+      "split": "pilot",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 1,
+      "path": "pilot-uniform-n8192-kna-001.txt",
+      "sha256": "e438a4b708d0efb831454eef5e0df3ed6abb08bbb35e9e801748c1b8474da9e9"
+    },
+    {
+      "id": "main-uniform-n8192-kna-000",
+      "split": "main",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 0,
+      "path": "main-uniform-n8192-kna-000.txt",
+      "sha256": "8be565925619792acdf757d2212c274866db95d54d921d8df071d7f10dbdc783"
+    },
+    {
+      "id": "main-uniform-n8192-kna-001",
+      "split": "main",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 1,
+      "path": "main-uniform-n8192-kna-001.txt",
+      "sha256": "fab00adb0af1ca01ec659a5a50cf0a4efb86c724fb4b37a1d88cbde7bf4750f3"
+    },
+    {
+      "id": "main-uniform-n8192-kna-002",
+      "split": "main",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 2,
+      "path": "main-uniform-n8192-kna-002.txt",
+      "sha256": "3ed661e58f10d06d366c8914a6426e2f62ccb33134d6b38aad192a5e1f798660"
+    },
+    {
+      "id": "main-uniform-n8192-kna-003",
+      "split": "main",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 3,
+      "path": "main-uniform-n8192-kna-003.txt",
+      "sha256": "52fb282c3756f7c941f052fcc204423896b687e6aa4acd0be244c5e721eb6385"
+    },
+    {
+      "id": "main-uniform-n8192-kna-004",
+      "split": "main",
+      "family": "uniform",
+      "n": 8192,
+      "k": null,
+      "instance": 4,
+      "path": "main-uniform-n8192-kna-004.txt",
+      "sha256": "8c60a8340fc2570301f1997058e38a178621e07f389e22588d5aa0a6d09bd13f"
+    },
+    {
+      "id": "pilot-semi-n2048-k64-000",
+      "split": "pilot",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 0,
+      "path": "pilot-semi-n2048-k64-000.txt",
+      "sha256": "7bae88b6a76f8f0b10299721f0e9a5557b7a03626bd567d80c0b2405d58cad74",
+      "generation_trace": "pilot-semi-n2048-k64-000.generation.json",
+      "generation_trace_sha256": "9c1dfe507de33910c1f2077cffac9de8c0d495ee346d295dbac2f00939b2734e"
+    },
+    {
+      "id": "pilot-semi-n2048-k64-001",
+      "split": "pilot",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 1,
+      "path": "pilot-semi-n2048-k64-001.txt",
+      "sha256": "b7a22315a3c2cc81433eff02ab4b491a8e14534164490dd88ab294250f2864eb",
+      "generation_trace": "pilot-semi-n2048-k64-001.generation.json",
+      "generation_trace_sha256": "a5ab6bc740c07b2f94de02129cefb1bbc06379e2a77983f3a29139777c100a05"
+    },
+    {
+      "id": "main-semi-n2048-k64-000",
+      "split": "main",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 0,
+      "path": "main-semi-n2048-k64-000.txt",
+      "sha256": "4b3face45a1171177e709b674ff51cd4ff766881506d3866067c77a6ad3ebca3",
+      "generation_trace": "main-semi-n2048-k64-000.generation.json",
+      "generation_trace_sha256": "9abc1d2e009ab644af76e84964dce105fe8fc9be8e0ce726f4eeba155f7fa796"
+    },
+    {
+      "id": "main-semi-n2048-k64-001",
+      "split": "main",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 1,
+      "path": "main-semi-n2048-k64-001.txt",
+      "sha256": "b04432097cef06865f64a593c65a481ca2fb8980aacf5bb8954d5af0447d23b0",
+      "generation_trace": "main-semi-n2048-k64-001.generation.json",
+      "generation_trace_sha256": "c950181ef2c2d50c6c17cd86c372463f35466ce6aad0ceb4c41f2c0a4b689ce3"
+    },
+    {
+      "id": "main-semi-n2048-k64-002",
+      "split": "main",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 2,
+      "path": "main-semi-n2048-k64-002.txt",
+      "sha256": "f19554ae2dcf9f563cb04f01f918f6a0d67fad7e0213c28e5fcfa4f80c880209",
+      "generation_trace": "main-semi-n2048-k64-002.generation.json",
+      "generation_trace_sha256": "3d682ba5f997da9b42e555402d9c00d5f29f71141c0fee3aab53c62ba79548be"
+    },
+    {
+      "id": "main-semi-n2048-k64-003",
+      "split": "main",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 3,
+      "path": "main-semi-n2048-k64-003.txt",
+      "sha256": "cba1ad2faf5f4a9b14dfbf5eac1f9500abbb7a16ecd37a97c918d98214fed846",
+      "generation_trace": "main-semi-n2048-k64-003.generation.json",
+      "generation_trace_sha256": "9252e6da3f275d5c30a056f28ddbe80aefedeb45c360a5b205e197f3d5539607"
+    },
+    {
+      "id": "main-semi-n2048-k64-004",
+      "split": "main",
+      "family": "semi",
+      "n": 2048,
+      "k": 64,
+      "instance": 4,
+      "path": "main-semi-n2048-k64-004.txt",
+      "sha256": "1ce090b495fab3469e4a3f1e9d9b5cf17d87361b07b6d92e822a680bbf9d443c",
+      "generation_trace": "main-semi-n2048-k64-004.generation.json",
+      "generation_trace_sha256": "ea5cef915fb9e690915acec6a6bdab0d07c9241d04ee70fd04825824233edb7c"
+    },
+    {
+      "id": "pilot-semi-n8192-k64-000",
+      "split": "pilot",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 0,
+      "path": "pilot-semi-n8192-k64-000.txt",
+      "sha256": "2b9c45ffabdd5b2d347e7e836eaabdcb1d5b82ccb8095352d2eb86448944959e",
+      "generation_trace": "pilot-semi-n8192-k64-000.generation.json",
+      "generation_trace_sha256": "c2637c81713e564af331508e9718bb397ec4756b2c73f79c942bf33b18e5e3ab"
+    },
+    {
+      "id": "pilot-semi-n8192-k64-001",
+      "split": "pilot",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 1,
+      "path": "pilot-semi-n8192-k64-001.txt",
+      "sha256": "27511394544b1839893eea8f87d6289ce671acc717845e4a66a8f30a54636923",
+      "generation_trace": "pilot-semi-n8192-k64-001.generation.json",
+      "generation_trace_sha256": "172a967968f9fc6304a1ff25001d9448abe7934dd53618fd8da86144d53b8079"
+    },
+    {
+      "id": "main-semi-n8192-k64-000",
+      "split": "main",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 0,
+      "path": "main-semi-n8192-k64-000.txt",
+      "sha256": "96bdf719585ed5a91a8976394d5c5836b51a246f0a54fa9a1fee7e5f220ea71b",
+      "generation_trace": "main-semi-n8192-k64-000.generation.json",
+      "generation_trace_sha256": "c42fb6c3c3bd0001af65acf9e952d96db991b9e78a90098b68dcc9311e049b35"
+    },
+    {
+      "id": "main-semi-n8192-k64-001",
+      "split": "main",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 1,
+      "path": "main-semi-n8192-k64-001.txt",
+      "sha256": "f8a4684b82553cf58adb80496ee6e6417aae1434d0b9775efbb0b6c57a0314e5",
+      "generation_trace": "main-semi-n8192-k64-001.generation.json",
+      "generation_trace_sha256": "9624e44140ec79f73ae940c5c0962e6aa02f2d72a50149bf2bef88245cf9b09a"
+    },
+    {
+      "id": "main-semi-n8192-k64-002",
+      "split": "main",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 2,
+      "path": "main-semi-n8192-k64-002.txt",
+      "sha256": "242303476379d8ff3399795fd7a466168e78f67894c44c3776df182fc298915e",
+      "generation_trace": "main-semi-n8192-k64-002.generation.json",
+      "generation_trace_sha256": "b9791e424dbbf8f1ea6d41800e40e60e5daecdd8efdb1ae9c7f6d502463548e4"
+    },
+    {
+      "id": "main-semi-n8192-k64-003",
+      "split": "main",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 3,
+      "path": "main-semi-n8192-k64-003.txt",
+      "sha256": "21bcf1cbc9e4bcf95c7cfceed28216d6d2379d7639572f92ae65061b872d4ab3",
+      "generation_trace": "main-semi-n8192-k64-003.generation.json",
+      "generation_trace_sha256": "c194c987a46e9ecb2adbf1fb917c2c5556eaf2114e695d43a28737f712499b6f"
+    },
+    {
+      "id": "main-semi-n8192-k64-004",
+      "split": "main",
+      "family": "semi",
+      "n": 8192,
+      "k": 64,
+      "instance": 4,
+      "path": "main-semi-n8192-k64-004.txt",
+      "sha256": "ec0f72b5c0f02e9f917188fb62008feedec565ad57da360b4a456f35a065881a",
+      "generation_trace": "main-semi-n8192-k64-004.generation.json",
+      "generation_trace_sha256": "2e26c597e305d52d26c8e94066c4cc67f38f148a733bc7b1258647bead510c4a"
+    }
+  ]
+}

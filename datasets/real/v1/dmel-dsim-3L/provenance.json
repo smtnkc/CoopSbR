@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "reference_assembly": "GCA_000001215.4",
+    "query_assembly": "GCA_016746395.2",
+    "reference_annotation": "dmel_r6.54_FB2023_05",
+    "query_annotation": "PrinDsim3v1.0",
+    "orthology_source": "Ensembl Compara 116 protein_pangenome_drosophila; complementary species dumps union; ortholog_one2one and is_high_confidence=1; unique cross-species partner and annotated locus",
+    "source_lock_sha256": "ffa871b26a8e444d35df2269046990bd18bbdad9b88fa82d18241570b3ac5cc1",
+    "ensembl_genomes_release": 63,
+    "ensembl_compara_release": 116,
+    "homology_files": [
+      "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_melanogaster/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz",
+      "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_simulans_gca016746395v2rs/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz",
+      "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_yakuba_gca016746365v2rs/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz"
+    ],
+    "reference_annotation_url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/gff3/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.54.63.gff3.gz",
+    "query_annotation_url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/gff3/drosophila_simulans_gca016746395v2rs/Drosophila_simulans_gca016746395v2rs.Prin_Dsim_3.1.63.gff3.gz",
+    "selection": {
+      "arms_per_comparison": 3,
+      "candidate_arms": [
+        "2L",
+        "2R",
+        "3L",
+        "3R",
+        "X"
+      ],
+      "coordinate_tie_policy": "exclude all pairs sharing a reference or query start, before final label assignment",
+      "minimum_arm_fidelity": 0.9,
+      "minimum_markers": 1024,
+      "orientation": "assembly positive-coordinate order; no performance-based reversal of chromosome orientation",
+      "ranking": "descending retained markers, then arm name; fixed before sorting or timing"
+    },
+    "arm_fidelity": 0.9992223950233281,
+    "reference_chromosome_length": 28110227,
+    "query_chromosome_length": 23399903,
+    "gene_id_mapping": "Ensembl gene_id attribute, otherwise ID with gene: prefix removed",
+    "chromosome_correspondence": "NCBI named assembled molecules; validated sequence lengths"
+  },
+  "reference_gff_sha256": "b2b46794cd1210af05b782767b6e87c7e7aa32a4ce9aa1769ef115f365fe943c",
+  "query_gff_sha256": "51a6e0059edc8c56ddc67994f614a2e68581b844b36e8d1631ce6c5294696eac",
+  "orthologs_sha256": "bdfa55d69b16c4d3be422e85d38dd20eb5309dff85ce9357ae8df5d1b3578dc2",
+  "reference_chromosome": "3L",
+  "query_chromosome": "CM028642.2",
+  "orientation": "ignored unsigned model",
+  "minimum_markers": 1024,
+  "retained": 2505,
+  "rejected": 67,
+  "coordinate_tie_policy": "exclude all pairs sharing a reference or query start",
+  "coordinate_tie_removed": 65
+}

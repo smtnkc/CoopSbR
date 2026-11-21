@@ -1,0 +1,95 @@
+{
+  "cases": [
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3R",
+      "k": null,
+      "label": "dmel-dsim-3R",
+      "n": 3109,
+      "path": "dmel-dsim-3R/permutation.txt",
+      "provenance": "dmel-dsim-3R/provenance.json",
+      "provenance_sha256": "a9a65839e913f2d4a1188c2bc13cee6f13df323a1d35a79aa1bbbda5dd55c6f5",
+      "sha256": "292361669bd1f4a0521bccd51184c4c0f0bf3cfc03f990fa678e27035d1c38b1",
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-2R",
+      "k": null,
+      "label": "dmel-dsim-2R",
+      "n": 2565,
+      "path": "dmel-dsim-2R/permutation.txt",
+      "provenance": "dmel-dsim-2R/provenance.json",
+      "provenance_sha256": "872cc196addcc9889ad0270691ef953b135267949a63681d6adda267639c1625",
+      "sha256": "46b8ca67f9c330decbc9806172f8372869837a43f7212a125675dfb257695472",
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3L",
+      "k": null,
+      "label": "dmel-dsim-3L",
+      "n": 2505,
+      "path": "dmel-dsim-3L/permutation.txt",
+      "provenance": "dmel-dsim-3L/provenance.json",
+      "provenance_sha256": "8c88c1838e1ba0fc61bd60942c2820aab8fee3a424ef614f80567ce87d9e60eb",
+      "sha256": "dbaed463334e80eb6de33a34afa2b41a1be443a7fe73f9205568dab49fe45e3d",
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3R",
+      "k": null,
+      "label": "dmel-dyak-3R",
+      "n": 3060,
+      "path": "dmel-dyak-3R/permutation.txt",
+      "provenance": "dmel-dyak-3R/provenance.json",
+      "provenance_sha256": "6dfa438b1cd38cfc6e6428be53ade72e14e1276275047c7f5a378dc2a1087f40",
+      "sha256": "566bbecacb75a8b5da0af2df282d8acee24c30bb7af3929723a025183ba40c6f",
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3L",
+      "k": null,
+      "label": "dmel-dyak-3L",
+      "n": 2415,
+      "path": "dmel-dyak-3L/permutation.txt",
+      "provenance": "dmel-dyak-3L/provenance.json",
+      "provenance_sha256": "aec260178438cc0f69e607fb284fc32cc2cbc5a459452d781db6c23ce8ff831e",
+      "sha256": "67fee7379d551c1d13cde293d7ff050d5988c226d888ce9871b64b1ddbaa54a3",
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-X",
+      "k": null,
+      "label": "dmel-dyak-X",
+      "n": 1890,
+      "path": "dmel-dyak-X/permutation.txt",
+      "provenance": "dmel-dyak-X/provenance.json",
+      "provenance_sha256": "8282e8774bd6aade3e0caabc5eaba7a5effa94ce79b62568e7c7afe2199a96f3",
+      "sha256": "7dc8a92f7e4613d77da81de4f804b841e7fc308ff79a2392c8918a6e0382b1f6",
+      "split": "real"
+    }
+  ],
+  "corpus": "drosophila-ensembl63-v1",
+  "schema": 1,
+  "seed": 42,
+  "selection": {
+    "arms_per_comparison": 3,
+    "candidate_arms": [
+      "2L",
+      "2R",
+      "3L",
+      "3R",
+      "X"
+    ],
+    "coordinate_tie_policy": "exclude all pairs sharing a reference or query start, before final label assignment",
+    "minimum_arm_fidelity": 0.9,
+    "minimum_markers": 1024,
+    "orientation": "assembly positive-coordinate order; no performance-based reversal of chromosome orientation",
+    "ranking": "descending retained markers, then arm name; fixed before sorting or timing"
+  },
+  "source_lock_sha256": "ffa871b26a8e444d35df2269046990bd18bbdad9b88fa82d18241570b3ac5cc1"
+}

@@ -1,0 +1,102 @@
+{
+  "ensembl_compara_release": 116,
+  "ensembl_genomes_release": 63,
+  "files": {
+    "dmel_gff": {
+      "bytes": 5816989,
+      "filename": "dmel.gff3.gz",
+      "sha256": "b2b46794cd1210af05b782767b6e87c7e7aa32a4ce9aa1769ef115f365fe943c",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/gff3/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.54.63.gff3.gz"
+    },
+    "dmel_homologies": {
+      "bytes": 4669382,
+      "filename": "dmel-homologies.tsv.gz",
+      "sha256": "e59a445f9451d4d5c1b99c8fe265a75a7ca716be5ed20c57df6effbd7dc75046",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_melanogaster/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz"
+    },
+    "dmel_sequences": {
+      "bytes": 672865,
+      "filename": "dmel-sequences.json",
+      "sha256": "79779b9c77b2ea84dcb25190664b578e3a53760d63ed025bd204ed3f65f8353e",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000001215.4/sequence_reports"
+    },
+    "dsim_gff": {
+      "bytes": 4999973,
+      "filename": "dsim.gff3.gz",
+      "sha256": "51a6e0059edc8c56ddc67994f614a2e68581b844b36e8d1631ce6c5294696eac",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/gff3/drosophila_simulans_gca016746395v2rs/Drosophila_simulans_gca016746395v2rs.Prin_Dsim_3.1.63.gff3.gz"
+    },
+    "dsim_homologies": {
+      "bytes": 4176702,
+      "filename": "dsim-homologies.tsv.gz",
+      "sha256": "c59cfa6095e656a73f041bd8830fc420898c569befa94615ab1064dc9393ba8c",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_simulans_gca016746395v2rs/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz"
+    },
+    "dsim_sequences": {
+      "bytes": 30933,
+      "filename": "dsim-sequences.json",
+      "sha256": "7d7d60e17fd06c94ad35a82b6b5bf32a033370eb7e415761d12cf54b2a239676",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_016746395.2/sequence_reports"
+    },
+    "dyak_gff": {
+      "bytes": 4951886,
+      "filename": "dyak.gff3.gz",
+      "sha256": "855845dc7ec6cd3f49a40ca54a9dcecc6f39ef27acf48adbcdff2d8b9616a5e9",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/gff3/drosophila_yakuba_gca016746365v2rs/Drosophila_yakuba_gca016746365v2rs.Prin_Dyak_Tai18E2_2.1.63.gff3.gz"
+    },
+    "dyak_homologies": {
+      "bytes": 3369504,
+      "filename": "dyak-homologies.tsv.gz",
+      "sha256": "9e8657394ac8a30fafd30233402b871ff76bd5a3d8c950695f9c8107c3f7a1d9",
+      "url": "https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-63/tsv/ensembl-compara/homologies/drosophila_yakuba_gca016746365v2rs/Compara.116.protein_pangenome_drosophila.homologies.tsv.gz"
+    },
+    "dyak_sequences": {
+      "bytes": 17818,
+      "filename": "dyak-sequences.json",
+      "sha256": "eb904a6cc4bf3f1ad99cd22946e42ca975d6c799edd626bbd3ec34ba96763e92",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_016746365.2/sequence_reports"
+    }
+  },
+  "gene_tree_collection": "protein_pangenome_drosophila",
+  "orthology_description": "Ensembl Compara 116 protein_pangenome_drosophila; complementary species dumps union; ortholog_one2one and is_high_confidence=1; unique cross-species partner and annotated locus",
+  "prepared_date": "2026-11-16",
+  "schema": 1,
+  "selection": {
+    "arms_per_comparison": 3,
+    "candidate_arms": [
+      "2L",
+      "2R",
+      "3L",
+      "3R",
+      "X"
+    ],
+    "coordinate_tie_policy": "exclude all pairs sharing a reference or query start, before final label assignment",
+    "minimum_arm_fidelity": 0.9,
+    "minimum_markers": 1024,
+    "orientation": "assembly positive-coordinate order; no performance-based reversal of chromosome orientation",
+    "ranking": "descending retained markers, then arm name; fixed before sorting or timing"
+  },
+  "species": {
+    "dmel": {
+      "annotation": "dmel_r6.54_FB2023_05",
+      "assembly": "GCA_000001215.4",
+      "assembly_name": "BDGP6.54",
+      "ensembl_name": "drosophila_melanogaster",
+      "gff_filename": "Drosophila_melanogaster.BDGP6.54.63.gff3.gz"
+    },
+    "dsim": {
+      "annotation": "PrinDsim3v1.0",
+      "assembly": "GCA_016746395.2",
+      "assembly_name": "Prin_Dsim_3.1",
+      "ensembl_name": "drosophila_simulans_gca016746395v2rs",
+      "gff_filename": "Drosophila_simulans_gca016746395v2rs.Prin_Dsim_3.1.63.gff3.gz"
+    },
+    "dyak": {
+      "annotation": "PrinDyakTai18E22v1.0",
+      "assembly": "GCA_016746365.2",
+      "assembly_name": "Prin_Dyak_Tai18E2_2.1",
+      "ensembl_name": "drosophila_yakuba_gca016746365v2rs",
+      "gff_filename": "Drosophila_yakuba_gca016746365v2rs.Prin_Dyak_Tai18E2_2.1.63.gff3.gz"
+    }
+  }
+}

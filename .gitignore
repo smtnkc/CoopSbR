@@ -1,0 +1,6 @@
+/build/
+/data/
+/runs/
+/manuscript/gpu-protocol-comparison.pdf
+__pycache__/
+*.pyc

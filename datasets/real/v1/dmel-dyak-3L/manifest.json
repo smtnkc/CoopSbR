@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3L",
+      "k": null,
+      "label": "dmel-dyak-3L",
+      "n": 2415,
+      "path": "permutation.txt",
+      "provenance": "provenance.json",
+      "provenance_sha256": "aec260178438cc0f69e607fb284fc32cc2cbc5a459452d781db6c23ce8ff831e",
+      "sha256": "67fee7379d551c1d13cde293d7ff050d5988c226d888ce9871b64b1ddbaa54a3",
+      "split": "real"
+    }
+  ],
+  "schema": 1,
+  "seed": 42
+}

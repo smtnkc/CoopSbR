@@ -1,0 +1,11 @@
+comparison	arm	query_sequence	reference_arm_orthologs	same_arm_before_coordinate_filter	coordinate_tie_removed	retained_markers	arm_fidelity	eligible	selected	reason
+dmel-dsim	2L	CM028640.2	2393	2391	57	2334	0.9991642290012537	True	False	declared_case_count_budget
+dmel-dsim	2R	CM028641.2	2659	2659	94	2565	1.0	True	True	selected_by_marker_count_before_sorting
+dmel-dsim	3L	CM028642.2	2572	2570	65	2505	0.9992223950233281	True	True	selected_by_marker_count_before_sorting
+dmel-dsim	3R	CM028643.2	3183	3183	74	3109	1.0	True	True	selected_by_marker_count_before_sorting
+dmel-dsim	X	CM028645.2	1964	1955	34	1921	0.995417515274949	True	False	declared_case_count_budget
+dmel-dyak	2L	CM028599.2	2290	1801	36	1765	0.7864628820960698	False	False	size_or_arm_correspondence
+dmel-dyak	2R	CM028600.2	2549	1945	62	1883	0.7630443311102393	False	False	size_or_arm_correspondence
+dmel-dyak	3L	CM028601.2	2485	2478	63	2415	0.9971830985915493	True	True	selected_by_marker_count_before_sorting
+dmel-dyak	3R	CM028602.2	3140	3139	79	3060	0.9996815286624203	True	True	selected_by_marker_count_before_sorting
+dmel-dyak	X	CM028598.2	1926	1926	36	1890	1.0	True	True	selected_by_marker_count_before_sorting

@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3R",
+      "k": null,
+      "label": "dmel-dsim-3R",
+      "n": 3109,
+      "path": "permutation.txt",
+      "provenance": "provenance.json",
+      "provenance_sha256": "a9a65839e913f2d4a1188c2bc13cee6f13df323a1d35a79aa1bbbda5dd55c6f5",
+      "sha256": "292361669bd1f4a0521bccd51184c4c0f0bf3cfc03f990fa678e27035d1c38b1",
+      "split": "real"
+    }
+  ],
+  "schema": 1,
+  "seed": 42
+}

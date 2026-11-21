@@ -1,0 +1,76 @@
+{
+  "cases": 6,
+  "instances": [
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3R",
+      "initial_breakpoints": 169,
+      "initial_strips": 170,
+      "k": null,
+      "n": 3109,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-2R",
+      "initial_breakpoints": 40,
+      "initial_strips": 41,
+      "k": null,
+      "n": 2565,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dsim-3L",
+      "initial_breakpoints": 37,
+      "initial_strips": 38,
+      "k": null,
+      "n": 2505,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3R",
+      "initial_breakpoints": 137,
+      "initial_strips": 138,
+      "k": null,
+      "n": 3060,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-3L",
+      "initial_breakpoints": 128,
+      "initial_strips": 129,
+      "k": null,
+      "n": 2415,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    },
+    {
+      "family": "real",
+      "id": "real-v1-dmel-dyak-X",
+      "initial_breakpoints": 75,
+      "initial_strips": 76,
+      "k": null,
+      "n": 1890,
+      "query_start_ties": 0,
+      "reference_start_ties": 0,
+      "split": "real"
+    }
+  ],
+  "main_cases": 0,
+  "pilot_cases": 0,
+  "real_cases": 6,
+  "schema": 1,
+  "valid": true
+}

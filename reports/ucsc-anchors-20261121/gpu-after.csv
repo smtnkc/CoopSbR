@@ -1,0 +1,2 @@
+timestamp, name, driver_version, temperature.gpu, clocks.current.sm [MHz]
+2026/11/21 10:34:17.851, NVIDIA RTX 6000 Ada Generation, 580.178.04, 44, 2625 MHz

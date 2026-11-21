@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "hard_limit_hours": 48,
+  "stage_hours": {
+    "24": {
+      "checks": 2,
+      "pilot": 2,
+      "synthetic": 8,
+      "real": 4,
+      "ablation": 3,
+      "diagnostics": 2,
+      "buffer": 3
+    },
+    "48": {
+      "checks": 4,
+      "pilot": 3,
+      "synthetic": 18,
+      "real": 7,
+      "ablation": 6,
+      "diagnostics": 4,
+      "buffer": 6
+    }
+  },
+  "pilot": {
+    "warmups": 1,
+    "repetitions": 2,
+    "call_timeout_seconds": 60
+  },
+  "main": {
+    "warmups": 1,
+    "repetitions": 3,
+    "call_timeout_seconds": 120
+  },
+  "variants": {
+    "SEQ": [
+      "--mode",
+      "seq"
+    ],
+    "GPU-FULL": [
+      "--mode",
+      "gpu-full"
+    ],
+    "GPU-INC": [
+      "--mode",
+      "gpu-inc"
+    ]
+  },
+  "extra_variants": {
+    "GPU-FULL-COOP": [
+      "--mode",
+      "gpu-full",
+      "--coord",
+      "cooperative"
+    ],
+    "GPU-INC-LAUNCHES": [
+      "--mode",
+      "gpu-inc",
+      "--coord",
+      "launches"
+    ],
+    "GPU-INC-FULL-CANDIDATE": [
+      "--mode",
+      "gpu-inc",
+      "--candidate",
+      "full"
+    ],
+    "GPU-INC-MATERIALIZED": [
+      "--mode",
+      "gpu-inc",
+      "--candidate",
+      "materialized"
+    ],
+    "GPU-FULL-COOP-REPLICATED": [
+      "--mode", "gpu-full", "--update", "full", "--coord", "cooperative-replicated"
+    ],
+    "GPU-GRAPH": [
+      "--mode",
+      "gpu-full",
+      "--coord",
+      "graph"
+    ]
+  }
+}

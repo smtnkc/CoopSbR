@@ -1,0 +1,93 @@
+{
+  "dataset": "hg38-panTro6-chr1-chr16-v1",
+  "source_url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/vsPanTro6/reciprocalBest/hg38.panTro6.rbest.chain.gz",
+  "source_sha256": "d8f87136a8788fcd01995448b693484957bf86d8e9e4efe653c67dba81248f5e",
+  "coordinate_convention": "0-based half-open on both forward strands",
+  "overlap_filter_bp": 100,
+  "cases": [
+    {
+      "id": "hg38-panTro6-chr1-min100",
+      "family": "real",
+      "chromosome": "chr1",
+      "min_block_bp": 100,
+      "primary": false,
+      "n": 255924,
+      "initial_breakpoints": 329,
+      "reversals": 296,
+      "path": "hg38-panTro6-chr1-min100.txt",
+      "sha256": "c47eba88ef05a2e14a55289eacd10b453f2f8fb444e104209f88fd63c2c7b4b6",
+      "trace_path": "hg38-panTro6-chr1-min100.trace",
+      "trace_sha256": "77a0c4460ff2ee6bd2f142abdb785ce617827697adee7e71c4a4c00a0b2cd660"
+    },
+    {
+      "id": "hg38-panTro6-chr1-min250",
+      "family": "real",
+      "chromosome": "chr1",
+      "min_block_bp": 250,
+      "primary": true,
+      "n": 203698,
+      "initial_breakpoints": 213,
+      "reversals": 192,
+      "path": "hg38-panTro6-chr1-min250.txt",
+      "sha256": "68ded9a71872386be7b2c96175ce0fc81d570ef50ebb79f0570ef625408cfde2",
+      "trace_path": "hg38-panTro6-chr1-min250.trace",
+      "trace_sha256": "862ed059bce5620921e326c2bd3ad327facbf7adaf2725323fbecf6c4ae67988"
+    },
+    {
+      "id": "hg38-panTro6-chr1-min500",
+      "family": "real",
+      "chromosome": "chr1",
+      "min_block_bp": 500,
+      "primary": false,
+      "n": 141617,
+      "initial_breakpoints": 139,
+      "reversals": 123,
+      "path": "hg38-panTro6-chr1-min500.txt",
+      "sha256": "75ff243f82f710e0dc62e1c3e08bb691b84e4851e84b8b42c0f54186be001cfc",
+      "trace_path": "hg38-panTro6-chr1-min500.trace",
+      "trace_sha256": "7b9a305b16636d987daadb8bacfe477284c75341eb338d1e3b296fceaecba993"
+    },
+    {
+      "id": "hg38-panTro6-chr16-min100",
+      "family": "real",
+      "chromosome": "chr16",
+      "min_block_bp": 100,
+      "primary": false,
+      "n": 91158,
+      "initial_breakpoints": 272,
+      "reversals": 242,
+      "path": "hg38-panTro6-chr16-min100.txt",
+      "sha256": "7a1785277aceb67994c99e2f7e8b5acecdb555d83d665a3a0a99619c75fbe42c",
+      "trace_path": "hg38-panTro6-chr16-min100.trace",
+      "trace_sha256": "4fe10961473b726c51332404cae876b0933f205105338c869a9562027ce9d84e"
+    },
+    {
+      "id": "hg38-panTro6-chr16-min250",
+      "family": "real",
+      "chromosome": "chr16",
+      "min_block_bp": 250,
+      "primary": true,
+      "n": 70726,
+      "initial_breakpoints": 155,
+      "reversals": 135,
+      "path": "hg38-panTro6-chr16-min250.txt",
+      "sha256": "bc4b07bd79545855a1c98f47a62799932279f3fad0aec9c788a7df5bca846364",
+      "trace_path": "hg38-panTro6-chr16-min250.trace",
+      "trace_sha256": "06bdb39ede53a1a25c9b6fc5d0e1518662b268b648727d2edbd56687455b9a09"
+    },
+    {
+      "id": "hg38-panTro6-chr16-min500",
+      "family": "real",
+      "chromosome": "chr16",
+      "min_block_bp": 500,
+      "primary": false,
+      "n": 47804,
+      "initial_breakpoints": 96,
+      "reversals": 88,
+      "path": "hg38-panTro6-chr16-min500.txt",
+      "sha256": "af094f8c56453847167daea31b63fbbf8c277385aa4d797a1940fe490904aac1",
+      "trace_path": "hg38-panTro6-chr16-min500.trace",
+      "trace_sha256": "e80158c31576619cac3105cd40e755b2955aa889746146f37e878662772c2fc5"
+    }
+  ]
+}
