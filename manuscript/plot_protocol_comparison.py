@@ -33,6 +33,7 @@ STYLE = {
     "xtick.labelcolor": INK,
     "ytick.labelcolor": INK,
     "legend.fontsize": 8.5,
+    "legend.labelcolor": INK,
     "pdf.use14corefonts": True,
 }
 GRAY = "#7F8C8D"
@@ -103,15 +104,15 @@ def draw(report, output, supplement=SUPPLEMENT):
     anchor_labels = [f"{case['chromosome']} · {case['min_block_bp']}" for case in anchor_cases]
 
     with plt.rc_context(STYLE):
-        # Keep the 5-inch source canvas used by the manuscript.
-        fig = plt.figure(figsize=(5, 4.95))
+        # Use a taller canvas to add space between the existing plot areas.
+        fig = plt.figure(figsize=(5, 5.4))
         top = fig.add_gridspec(
-            1, 2, left=0.138, right=0.982, bottom=0.542, top=0.865, wspace=0.145
+            1, 2, left=0.138, right=0.982, bottom=0.555, top=0.851, wspace=0.145
         )
         left = fig.add_subplot(top[0])
         right = fig.add_subplot(top[1], sharex=left, sharey=left)
         lower = fig.add_gridspec(
-            1, 2, left=0.138, right=0.982, bottom=0.087, top=0.415, wspace=0.46
+            1, 2, left=0.138, right=0.982, bottom=0.099, top=0.400, wspace=0.46
         )
         fly_ax = fig.add_subplot(lower[0])
         anchor_ax = fig.add_subplot(lower[1], sharex=fly_ax)
@@ -156,7 +157,7 @@ def draw(report, output, supplement=SUPPLEMENT):
 
         left.set_ylabel("End-to-end speedup vs. Graph", color=INK)
         right.tick_params(axis="y", labelleft=False)
-        fig.text(0.56, 0.48, "Permutation length (×1,024 markers)", ha="center", color=INK)
+        fig.text(0.56, 0.478, "Permutation length (×1,024 markers)", ha="center", color=INK)
 
         fly_ratios = draw_case_panel(
             fly_ax, real, fly_labels, "(c) Drosophila gene orders", graph_style
@@ -166,7 +167,7 @@ def draw(report, output, supplement=SUPPLEMENT):
         )
         ratios = fly_ratios + anchor_ratios
         fly_ax.set_xlim(min(0.95, min(ratios) - 0.04), max(1.84, max(ratios) + 0.04))
-        fig.text(0.56, 0.024, "End-to-end speedup vs. Graph", ha="center", color=INK)
+        fig.text(0.56, 0.025, "End-to-end speedup vs. Graph", ha="center", color=INK)
         fig.legend(
             handles=[legend_handles[i] for i in (0, 2, 1, 3)],
             loc="upper center", bbox_to_anchor=(0.5, 0.999), ncol=2,
