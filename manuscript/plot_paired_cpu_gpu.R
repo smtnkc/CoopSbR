@@ -69,7 +69,7 @@ draw_synthetic_series <- function(family, color, marker) {
 }
 
 synthetic_panel <- function() {
-    open_panel(c(0.138, 0.982, 0.542, 0.865), top_xlim, synthetic_limits, new = FALSE)
+    open_panel(c(0.085, 0.352, 0.248, 0.786), top_xlim, synthetic_limits, new = FALSE)
     abline(h = log10(synthetic_ticks), col = grid, lty = 3, lwd = 0.72, xpd = FALSE)
     abline(h = 0, col = gray, lty = 2, lwd = 0.95, xpd = FALSE)
     draw_synthetic_series('uniform', teal, 23)
@@ -104,18 +104,18 @@ case_panel <- function(rows, labels, region, title) {
     panel_title(title, outside = 0.10)
 }
 
-pdf(args[2], width = 5, height = 4.95, pointsize = 9,
+pdf(args[2], width = 7.15, height = 2.62, pointsize = 9,
     family = 'Helvetica', useDingbats = FALSE)
 synthetic_panel()
 fly_labels <- sub('real-v1-dmel-(.*)-([^-]+)$', '\\1 \u00b7 \\2', fly$case_id)
 anchor_labels <- paste(anchors$chromosome, anchors$min_block_bp, sep = ' \u00b7 ')
-case_panel(fly, fly_labels, c(0.138, 0.481, 0.087, 0.415), '(b) Drosophila gene orders')
-case_panel(anchors, anchor_labels, c(0.639, 0.982, 0.087, 0.415), '(c) Human\u2013chimp blocks')
+case_panel(fly, fly_labels, c(0.466, 0.655, 0.248, 0.786), '(b) Drosophila gene orders')
+case_panel(anchors, anchor_labels, c(0.791, 0.988, 0.248, 0.786), '(c) Human\u2013chimp blocks')
 
 open_panel(c(0, 1, 0, 1), c(0, 1), c(0, 1))
-text(0.56, 0.48, 'Permutation length (\u00d71,024 markers)', col = ink)
-text(0.04, 0.704, 'End-to-end speedup vs. CPU', srt = 90, col = ink)
-text(0.56, 0.024, 'End-to-end speedup vs. CPU', col = ink)
+text(0.2185, 0.072, 'Permutation length (\u00d71,024 markers)', col = ink)
+text(0.025, 0.516, 'End-to-end speedup vs. CPU', srt = 90, col = ink)
+text(0.727, 0.072, 'End-to-end speedup vs. CPU', col = ink)
 segments(0.17, 0.95, 0.23, 0.95, col = gray, lty = 2, lwd = 0.95)
 text(0.24, 0.95, 'CPU reference', adj = c(0, 0.5), col = ink, cex = 0.94)
 segments(0.43, 0.95, 0.49, 0.95, col = teal, lwd = 1.1)
