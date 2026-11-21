@@ -16,18 +16,25 @@ from matplotlib.ticker import MultipleLocator
 MANUSCRIPT = Path(__file__).resolve().parent
 REPORT = MANUSCRIPT.parent / "reports" / "fused-update-main-20261120"
 SUPPLEMENT = MANUSCRIPT.parent / "reports" / "ucsc-anchors-20261121"
-STYLE = {
-    "font.family": "sans-serif",
-    "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans", "Liberation Sans"],
-    "font.size": 9,
-    "axes.titlesize": 10,
-    "axes.labelsize": 9,
-    "xtick.labelsize": 8.5,
-    "ytick.labelsize": 8.5,
-    "legend.fontsize": 8.5,
-    "pdf.fonttype": 42,
-}
 INK = "#2C3E50"
+# Match Figure 3's printed type sizes. The 7.15-inch source for that figure
+# spans the text width, while this 5-inch source spans 63% of that width.
+TYPE_SCALE = 5 / (0.63 * 7.15)
+STYLE = {
+    "font.family": "Helvetica",
+    "font.size": 9 * TYPE_SCALE,
+    "axes.titlesize": 9 * TYPE_SCALE,
+    "axes.titleweight": "bold",
+    "axes.titlecolor": INK,
+    "axes.labelsize": 9 * TYPE_SCALE,
+    "axes.labelcolor": INK,
+    "xtick.labelsize": 8 * TYPE_SCALE,
+    "ytick.labelsize": 8 * TYPE_SCALE,
+    "xtick.labelcolor": INK,
+    "ytick.labelcolor": INK,
+    "legend.fontsize": 8.5,
+    "pdf.use14corefonts": True,
+}
 GRAY = "#7F8C8D"
 # Gold, rust, and slate teal from the reference observer-discrepancy dot plot.
 METHODS = [
@@ -71,7 +78,7 @@ def draw_case_panel(ax, rows, labels, title, graph_style):
     ax.set_yticks(range(len(rows)), labels)
     ax.set_ylim(len(rows) - 0.5, -0.5)
     ax.xaxis.set_major_locator(MultipleLocator(0.2))
-    ax.set_title(title, loc="left", x=-0.10, color=INK, fontweight="bold", pad=6)
+    ax.set_title(title, loc="left", x=-0.10, pad=6)
     return panel_ratios
 
 
@@ -96,7 +103,7 @@ def draw(report, output, supplement=SUPPLEMENT):
     anchor_labels = [f"{case['chromosome']} · {case['min_block_bp']}" for case in anchor_cases]
 
     with plt.rc_context(STYLE):
-        # Approximately 360 TeX points, the manuscript's single-column text width.
+        # Keep the 5-inch source canvas used by the manuscript.
         fig = plt.figure(figsize=(5, 4.95))
         top = fig.add_gridspec(
             1, 2, left=0.138, right=0.982, bottom=0.542, top=0.865, wspace=0.145
@@ -140,7 +147,7 @@ def draw(report, output, supplement=SUPPLEMENT):
                 if ax is left:
                     line.set_label(label)
                     legend_handles.append(line)
-            ax.set_title(title, loc="left", color=INK, fontweight="bold", pad=6)
+            ax.set_title(title, loc="left", pad=6)
             ax.set_xscale("log", base=2)
             ax.set_xticks(lengths, [str(n // 1024) for n in lengths])
             ax.set_xlim(lengths[0] / 1.27, lengths[-1] * 1.27)
