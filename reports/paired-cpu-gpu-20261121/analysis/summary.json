@@ -1,0 +1,23 @@
+{
+  "verified_pairs": 142,
+  "timed": 1140,
+  "warmups": 284,
+  "coverage": {
+    "drosophila": {
+      "inputs": 6,
+      "gpu_faster": 0
+    },
+    "human-chimp": {
+      "inputs": 6,
+      "gpu_faster": 6
+    },
+    "semi": {
+      "inputs": 35,
+      "gpu_faster": 20
+    },
+    "uniform": {
+      "inputs": 35,
+      "gpu_faster": 30
+    }
+  }
+}

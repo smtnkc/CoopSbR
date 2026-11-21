@@ -17,8 +17,12 @@ revision identified in the archive manifest.
   scripts/prepare_chain_inputs.py.
 - Per-call timings, paired summaries and binary provenance are in
   reports/fused-update-main-20261120 and reports/ucsc-anchors-20261121. The latter
-  also archives the repeat. The [sequential context](reports/sequential-context/)
-  contains the earlier single-thread timings cited in the manuscript.
+  also archives the repeat.
+- The [paired CPU–GPU benchmark](reports/paired-cpu-gpu-20261121/)
+  contains the measurements, solver driver and Figure 3 data.
+- The [Graph reuse and barrier study](reports/graph-barrier-study-20261121/)
+  contains the 12-mode measurements, timing components, amortization
+  batches, analysis tables and source files for the matched GPU controls.
 - [Fused GPU validation](reports/fused-update-pilot-20261120/VALIDATION.md)
   records the test and sanitizer coverage. The runner uses the archived
   pilot binary hashes and [Drosophila trace certificates](reports/graph-reference-20261118/per-input.csv).
@@ -45,6 +49,7 @@ Compare the completed reversal trace with the per-input SHA-256 certificate.
 A rerun on a different build or GPU will yield a distinct timing measurement.
 
 To redraw Figure 2, install Matplotlib and run
-python3 manuscript/plot_protocol_comparison.py from the archive root.
+python3 manuscript/plot_protocol_comparison.py from the archive root. The [CPU–GPU benchmark guide](reports/paired-cpu-gpu-20261121/)
+gives the Figure 3 commands.
 The original genome annotations and alignments are linked in the dataset
 manifests and source locks. The archive contains the derived input permutations.

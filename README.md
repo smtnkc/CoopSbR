@@ -49,8 +49,13 @@ with the same full-update, local-candidate, and scalar-reduction settings.
 - [Synthetic and Drosophila timing records and paired summaries](reports/fused-update-main-20261120/)
 - [Human–chimpanzee timing records, paired summaries, and repeat](reports/ucsc-anchors-20261121/)
 - [Human–chimpanzee inputs and reference traces](datasets/comparisons/ucsc-anchors-v1/)
+- [Paired CPU–GPU timings and Figure 3](reports/paired-cpu-gpu-20261121/)
+- [Graph reuse and matched barrier controls](reports/graph-barrier-study-20261121/)
 - [Approximation proof](docs/APPROXIMATION_PROOF.md) and
   [GPU trace-equivalence proof](docs/PARALLEL_CORRECTNESS_THEOREM.md)
 
 To reproduce Figure 2 from the archived results, install Matplotlib and
 run `python3 manuscript/plot_protocol_comparison.py` from the repository root.
+
+The [CPU–GPU benchmark guide](reports/paired-cpu-gpu-20261121/) describes how to recompute
+its summaries and redraw Figure 3.

@@ -1,0 +1,14 @@
+    Start 1: exact-policy
+1/2 Test #1: exact-policy .....................   Passed    0.09 sec
+    Start 2: gpu-equivalence
+2/2 Test #2: gpu-equivalence ..................   Passed   37.40 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  37.50 sec
+memcheck-cooperative-matched-parallel.log ========= ERROR SUMMARY: 0 errors
+memcheck-cooperative-split-full.log ========= ERROR SUMMARY: 0 errors
+memcheck-graph.log ========= ERROR SUMMARY: 0 errors
+synccheck-cooperative-matched-parallel.log ========= ERROR SUMMARY: 0 errors
+synccheck-cooperative-split-full.log ========= ERROR SUMMARY: 0 errors
+synccheck-graph.log ========= ERROR SUMMARY: 0 errors
