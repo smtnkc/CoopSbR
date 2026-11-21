@@ -44,7 +44,7 @@ the executable's command-line options in the captured run configuration.
 Compare the completed reversal trace with the per-input SHA-256 certificate.
 A rerun on a different build or GPU will yield a distinct timing measurement.
 
-To redraw Figure 1, install Matplotlib and run
+To redraw Figure 2, install Matplotlib and run
 python3 manuscript/plot_protocol_comparison.py from the archive root.
 The original genome annotations and alignments are linked in the dataset
 manifests and source locks. The archive contains the derived input permutations.

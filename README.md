@@ -52,5 +52,5 @@ with the same full-update, local-candidate, and scalar-reduction settings.
 - [Approximation proof](docs/APPROXIMATION_PROOF.md) and
   [GPU trace-equivalence proof](docs/PARALLEL_CORRECTNESS_THEOREM.md)
 
-To reproduce Figure 1 from the archived results, install Matplotlib and
+To reproduce Figure 2 from the archived results, install Matplotlib and
 run `python3 manuscript/plot_protocol_comparison.py` from the repository root.
